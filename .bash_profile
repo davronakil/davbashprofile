@@ -13,11 +13,10 @@ alias sha="sha256"
 
 sha256() {
     #do things with parameters like $1 such as
-    echo -n "$1" | shasum -a 256
+    shasum -a 256 $1
 }
 
 shapaste() {
-	# sha 
     #do things with parameters like $1 such as
     pbpaste | shasum -a 256
 }
