@@ -1,4 +1,4 @@
-# . ~/.bash_prompt
+. ~/.bash_prompt
 
 PS1="\u$ "
 alias lll="ls -ahG"
