@@ -23,6 +23,10 @@ alias hidehidden="defaults write com.apple.finder AppleShowAllFiles NO" #hide hi
 alias hosts="subl /etc/hosts"
 alias twitter="open -na 'Google Chrome' --args '--app=https://mobile.twitter.com '"
 
+# show my public IP address
+alias myip="curl ifconfig.me"
+alias whatsmyip="curl ifconfig.me"
+
 # Encryption / sha shortcuts
 sha256() {
 	echo -n $1 | shasum -a 256
